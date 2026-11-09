@@ -1,0 +1,2 @@
+# Shell scripts run in WSL (solana/toolchain.sh), where CRLF line endings break bash.
+*.sh text eol=lf

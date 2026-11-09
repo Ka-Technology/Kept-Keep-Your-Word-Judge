@@ -1,0 +1,46 @@
+Kept Evaluation License
+
+Copyright (c) 2026 Ka Technology LLC. All rights reserved.
+
+This repository (the "Software") is made visible only so that it can be
+judged in the Solana hackathon in which Kept is entered under "Best Consumer
+App on Solana" (the "Hackathon"). It is not open source. Ka Technology LLC
+("Licensor") grants the limited rights below and no others.
+
+1. Who may use it. The organizers, judges and reviewers of the Hackathon,
+   acting in that role ("Evaluators").
+
+2. What Evaluators may do. View, download, clone, build and run the Software,
+   privately, solely to evaluate Kept's Hackathon submission.
+
+3. What no one may do. Except as section 2 allows, no one may:
+   (a) copy, modify, merge, publish, distribute, sublicense or sell the
+       Software or any part of it;
+   (b) make derivative works or use any part of it in another product or
+       project;
+   (c) use it in production or for any commercial purpose;
+   (d) use it to train, fine-tune or evaluate machine-learning models, or
+       include it in any dataset;
+   (e) share it, or any non-public information in it (including comments,
+       documents and commit history), with anyone who is not an Evaluator;
+   (f) remove or change this notice.
+
+4. Everyone else. Anyone who is not an Evaluator gets no rights to the
+   Software, except to view it on GitHub to the extent GitHub's Terms of
+   Service require. Forking it on GitHub grants no license.
+
+5. When it ends. All rights under this license end at 12:00 a.m. Pacific Time
+   on November 17, 2026, or earlier if Licensor makes the repository private
+   or tells the Evaluator so. Licensor removes the repository at that time.
+   When the rights end, Evaluators must stop using the Software and delete
+   every copy, including clones and forks.
+
+6. Third-party code. Parts of the Software owned by others stay under their
+   own licenses. This license gives no rights to the names, logos or
+   trademarks "Kept", "habitkept" or "Ka Technology".
+
+7. No warranty. The Software is provided "as is", without warranty of any
+   kind. Licensor is not liable for any claim, damages or other liability
+   arising from the Software or its use.
+
+For any other use, write to hello@habitkept.com.

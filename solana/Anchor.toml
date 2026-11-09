@@ -1,0 +1,24 @@
+skip_local_validator = true
+
+[toolchain]
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.localnet]
+kept_escrow = "4mN4zLWuZWQUbKR97DCr5vqWAXPHxuKQeQC8tC8nYfC1"
+
+[programs.devnet]
+kept_escrow = "4mN4zLWuZWQUbKR97DCr5vqWAXPHxuKQeQC8tC8nYfC1"
+
+# Deploys to devnet take --provider.cluster devnet --provider.wallet ../env/devnet-deployer.json (T228); the
+# deployer stays the program's upgrade authority. Tests run on LiteSVM, so no local validator.
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "cargo test"
+
+[hooks]

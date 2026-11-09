@@ -1,0 +1,21 @@
+{
+  "name": "solana-pay-build",
+  "private": true,
+  "description": "Bundles supabase/functions/solana-pay into one file, bundle.js, because Supabase's server timed out bundling its Solana packages (2026-10-26). Run `npm install && npm run build` here after changing the function, then deploy.",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "@solana/addresses": "8.5.0",
+    "@solana/functional": "8.5.0",
+    "@solana/instructions": "8.5.0",
+    "@solana/rpc": "8.5.0",
+    "@solana/signers": "8.5.0",
+    "@solana/transaction-messages": "8.5.0",
+    "@solana/transactions": "8.5.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
+}

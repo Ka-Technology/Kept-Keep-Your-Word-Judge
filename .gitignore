@@ -1,0 +1,69 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+# Kept's environments (env/test.env, env/prod.env) hold every secret; only the template is committed.
+/env/*
+!/env/example.env
+
+# typescript
+*.tsbuildinfo
+
+example
+
+# generated native folders
+/ios
+/android
+
+# Supabase CLI local state
+supabase/.temp/
+
+# Claude Code personal settings
+.claude/settings.local.json
+
+# graphify knowledge graph (local, regenerated)
+graphify-out/
+
+# Agent skills installed from skills-lock.json (local tooling, not the app). .claude/skills holds
+# symlinks into .agents/skills, which EAS can't recreate on Windows when it packs the project.
+.agents/
+.claude/skills/
+# Playwright CLI output (may contain credentials)
+.playwright-cli/
+
+# The escrow program's build output, local validator ledger and test packages (T226, T227)
+# (a symlink to WSL's own disk, so no trailing slash)
+solana/target
+solana/.anchor/
+solana/test-ledger/
+solana/node_modules/
